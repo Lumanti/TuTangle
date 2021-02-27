@@ -66,7 +66,8 @@ button {
     padding: 5px 10px;
     margin: 22px 5px;
     float: left;
-
+    cursor: pointer;
+    outline: none;
 }
 
 .nav-top-right {
@@ -116,19 +117,21 @@ button {
 .nav-bottom-left ul li{
     list-style: none;
     padding: 8px 16px 8px 0px;
-    float: left;
 }
 
 .nav-bottom-friend-requests {
-    float: left;
     color: #adadad;
     margin: 8px 0px 8px 16px;
 }
 
 .nav-bottom-invite {
-    float: left;
     margin: 8px 0px 8px 16px;
 }
+
+.nav-bottom-left ul li, .nav-bottom-friend-requests, .nav-bottom-invite {
+    float: left;
+    cursor: pointer;
+} 
 
 
 

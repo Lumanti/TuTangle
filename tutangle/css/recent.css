@@ -27,6 +27,7 @@
     width: 176px;
     padding: 14px 12px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .recent-title {
