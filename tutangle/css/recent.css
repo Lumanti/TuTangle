@@ -1,46 +1,66 @@
 .main-content {
-    width: 950px;
+    width: 64rem;
     margin: 0px auto;
     overflow: auto;
 }
 
-
-.recent-search {
-    margin: 4px;
-    height: 604px;
-    width: 200px;
-    background-color: #f5f5f5;
-    float: left;
+.recent-search-header.supreme {
+    display: block;
+    height: 2.5rem;
+    width: 60rem;
+    margin: 16px 32px;
+    background-color: #2fc1da;
+    color:white;
+    padding: 12px 12px;
+    text-align: center;
+    font-size: 30pt;
+    /* float: right; */
 }
 
-.recent-search-header {
+.recent-search-top  {
+    display: none;
+}
+
+.recent-search-bottom {
+    display: none;
+}
+
+/* .recent-search {
+    margin: 16px 4px 0 32px;
+    height: 37.75rem;
+    width: 12.5rem;
+    background-color: #f5f5f5;
+    float: left;
+} */
+
+/* .recent-search-header {
     height: 22px;
-    width: 176px;
+    width: 11rem;
     background-color: #2fc1da;
     color:white;
     padding: 14px 12px;
     font-size: 18px;
-}
+} */
 
-.recent-search-content div {
+/* .recent-search-content div {
     height: 23px;
-    width: 176px;
+    width: 11rem;
     padding: 14px 12px;
     font-size: 12px;
     cursor: pointer;
-}
+} */
 
-.recent-title {
-    width: 150px;
+/* .recent-title {
+    width: 9.375rem;
     float: left;
 }
 
 #recent-download, #recent-search-group {
     float: right;
-    width: 16px;
+    width: 1rem;
     padding: 2px;
-}
+} */
 
-.recent-search-content div:hover {
+/* .recent-search-content div:hover {
     background-color: white;
-}
+} */
