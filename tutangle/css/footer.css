@@ -1,7 +1,6 @@
 .footer {
-    height: 3rem;
+    height: 22rem;
     min-width: 65rem;
-    margin-top: 3rem;
     background-color: #727272;
 }
 
@@ -11,12 +10,13 @@
     padding: 16px 36px 20px 35px;
 }
 
-.footer-left {
-    float: left;
-    color: rgb(231, 231, 231);
-    font-size: 13pt;
-    font-weight: bold;
+.footer-left li{
+    list-style: none;
+    padding: 10px 0 10px 60px;
+    font-size: 20pt;
+    text-align: center;
 }
+
 
 .footer-left a{
     text-decoration: none;
@@ -27,7 +27,14 @@
     float: right;
 }
 
-.footer-inside img{
-    height: 16px;
-    width: auto;
+.footer-left img{
+    display: none;
+}
+
+.copyright-info {
+    color: #d4d4d4;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px;
 }
